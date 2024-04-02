@@ -1,0 +1,15 @@
+[versions]
+
+    gradle-plugins-version ="8.2.2"
+    Kotlin-version ="1.9.0"
+
+[libraries]
+
+[bundles]
+
+
+[plugins]
+     android-application ={id ="com.android.application",version.ref ="gradle-plugins-version"}
+     android-library ={id = "com.android.library" ,version.ref ="gradle-plugins-version"}
+     kotlin-android = {id = "org.jetbrains.kotlin.android"  ,version.ref="Kotlin-version"}
+
